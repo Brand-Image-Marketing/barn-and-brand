@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import heroImage from "@/assets/hero-livestock.jpg";
 
 const Hero = () => {
   const scrollToSection = (href: string) => {
@@ -12,24 +13,24 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center bg-gradient-to-b from-card to-background px-4 pt-20"
+      className="min-h-screen flex items-center justify-center relative px-4 pt-20 overflow-hidden"
     >
-      <div className="container mx-auto text-center max-w-4xl fade-in">
+      <div 
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: `url(${heroImage})` }}
+      />
+      <div className="absolute inset-0 bg-charcoal/60" />
+      <div className="container mx-auto text-center max-w-4xl fade-in relative z-10">
         <div className="mb-6 inline-block">
-          <div className="text-sage text-sm font-body uppercase tracking-widest mb-4">
-            Design for the Livestock Industry
-          </div>
-          <h1 className="text-5xl md:text-7xl font-display font-semibold text-foreground mb-6 leading-tight">
-            Building Brands with
-            <br />
-            <span className="text-primary">Heritage & Heart</span>
+          <h1 className="text-5xl md:text-7xl font-display font-semibold text-cream mb-6 leading-tight">
+            A Brand is a Mark That Lasts.
           </h1>
         </div>
 
-        <p className="text-lg md:text-xl text-foreground/70 mb-8 max-w-2xl mx-auto font-body leading-relaxed">
-          Professional graphic and web design services tailored for the
-          livestock industry. We create authentic brands that honor agricultural
-          traditions while meeting modern business needs.
+        <p className="text-lg md:text-xl text-cream/90 mb-8 max-w-2xl mx-auto font-body leading-relaxed">
+          The permanent brand a calf wears represents heritage, history, and future. 
+          Your brand carries legacy too — its own mark of meaning.
+          Make sure it's worth remembering.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -45,7 +46,7 @@ const Hero = () => {
             size="lg"
             variant="outline"
             onClick={() => scrollToSection("#contact")}
-            className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground text-base px-8"
+            className="border-2 border-cream text-cream hover:bg-cream hover:text-charcoal text-base px-8"
           >
             Let's Talk
           </Button>
@@ -59,10 +60,10 @@ const Hero = () => {
             { number: "24/7", label: "Support Available" },
           ].map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="text-3xl md:text-4xl font-display font-semibold text-primary mb-2">
+              <div className="text-3xl md:text-4xl font-display font-semibold text-tan mb-2">
                 {stat.number}
               </div>
-              <div className="text-sm text-foreground/60 font-body">
+              <div className="text-sm text-cream/70 font-body">
                 {stat.label}
               </div>
             </div>

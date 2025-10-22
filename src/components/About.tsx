@@ -1,7 +1,19 @@
+import leatherTexture from "@/assets/leather-texture.jpeg";
+
 const About = () => {
   return (
-    <section id="about" className="py-24 bg-card">
-      <div className="container mx-auto px-4">
+    <section 
+      id="about" 
+      className="py-24 relative overflow-hidden"
+      style={{
+        backgroundImage: `url(${leatherTexture})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
+      }}
+    >
+      <div className="absolute inset-0 bg-background/60"></div>
+      <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-display font-semibold text-foreground mb-6">

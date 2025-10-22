@@ -1,5 +1,6 @@
 import { Palette, Globe, Package, FileText } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import leatherTooling from "@/assets/leather-tooling.jpg";
 
 const Services = () => {
   const services = [
@@ -34,8 +35,18 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-24 bg-background">
-      <div className="container mx-auto px-4">
+    <section 
+      id="services" 
+      className="py-24 relative overflow-hidden"
+      style={{
+        backgroundImage: `url(${leatherTooling})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
+      }}
+    >
+      <div className="absolute inset-0 bg-cream/30"></div>
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-display font-semibold text-foreground mb-6">
             Services Built for

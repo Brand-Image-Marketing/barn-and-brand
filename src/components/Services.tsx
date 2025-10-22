@@ -1,36 +1,43 @@
-import { Palette, Globe, Package, FileText } from "lucide-react";
+import { Share2, Mail, Target, Palette, Briefcase } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import leatherTooling from "@/assets/leather-tooling.jpg";
 
 const Services = () => {
   const services = [
     {
+      icon: Share2,
+      title: "Social Media Management",
+      description:
+        "Build and engage your audience with strategic content that connects, converts, and creates lasting relationships.",
+      features: ["Content Strategy", "Community Management", "Analytics & Reporting", "Platform Optimization"],
+    },
+    {
+      icon: Mail,
+      title: "Email Marketing",
+      description:
+        "Craft compelling campaigns that land in inboxes and drive action, building loyalty one message at a time.",
+      features: ["Campaign Design", "List Management", "Automation Setup", "Performance Tracking"],
+    },
+    {
+      icon: Target,
+      title: "Paid Ads",
+      description:
+        "Reach the right people at the right time with targeted advertising that maximizes ROI and grows your business.",
+      features: ["Ad Strategy", "Campaign Management", "A/B Testing", "Budget Optimization"],
+    },
+    {
       icon: Palette,
-      title: "Brand Identity",
+      title: "Graphic Design",
       description:
-        "Custom logos, color palettes, and brand guidelines that capture your ranch's unique character and values.",
-      features: ["Logo Design", "Brand Guidelines", "Business Cards", "Marketing Materials"],
+        "Create visual stories that capture attention and communicate your brand's message with clarity and impact.",
+      features: ["Brand Identity", "Marketing Materials", "Social Graphics", "Print Design"],
     },
     {
-      icon: Globe,
-      title: "Web Design",
+      icon: Briefcase,
+      title: "Marketing Consulting",
       description:
-        "Modern, mobile-friendly websites that showcase your operation and connect with customers effectively.",
-      features: ["Custom Websites", "Mobile Responsive", "SEO Optimization", "Content Management"],
-    },
-    {
-      icon: Package,
-      title: "Marketing Design",
-      description:
-        "Eye-catching designs for sale catalogs, advertisements, social media, and promotional materials.",
-      features: ["Sale Catalogs", "Social Media Graphics", "Print Ads", "Promotional Materials"],
-    },
-    {
-      icon: FileText,
-      title: "Print Design",
-      description:
-        "Professional designs for business documents, signage, banners, and all your print needs.",
-      features: ["Brochures & Flyers", "Banners & Signage", "Stationery Design", "Product Labels"],
+        "Strategic guidance to help you navigate the marketing landscape and build a brand that stands the test of time.",
+      features: ["Brand Strategy", "Market Analysis", "Growth Planning", "Strategic Direction"],
     },
   ];
 
@@ -51,16 +58,15 @@ const Services = () => {
           <h2 className="text-4xl md:text-5xl font-display font-semibold text-foreground mb-6">
             Services Built for
             <br />
-            <span className="text-primary">Your Industry</span>
+            <span className="text-primary">Growth</span>
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto font-body">
-            Comprehensive design solutions tailored specifically for livestock operations and
-            agricultural businesses.
+            Strategic marketing solutions that help your brand connect, compete, and thrive.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {services.map((service, index) => (
             <Card
               key={index}

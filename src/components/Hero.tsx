@@ -59,24 +59,6 @@ const Hero = () => {
             Let's Talk
           </Button>
         </div>
-
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto">
-          {[
-            { number: "10+", label: "Years Experience" },
-            { number: "50+", label: "Happy Clients" },
-            { number: "100+", label: "Projects Completed" },
-            { number: "24/7", label: "Support Available" },
-          ].map((stat, index) => (
-            <div key={index} className="text-center">
-              <div className="text-3xl md:text-4xl font-display font-semibold text-tan mb-2">
-                {stat.number}
-              </div>
-              <div className="text-sm text-cream/70 font-body">
-                {stat.label}
-              </div>
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   );

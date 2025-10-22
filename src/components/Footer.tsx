@@ -120,7 +120,7 @@ const Footer = () => {
           {/* Bottom Bar */}
           <div className="pt-8 border-t border-card/20 text-center">
             <p className="text-card/60 font-body text-sm">
-              © {new Date().getFullYear()} Ranch Design Co. All rights reserved.
+              © {new Date().getFullYear()} Brand Image Marketing. All rights reserved.
             </p>
           </div>
         </div>

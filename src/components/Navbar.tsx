@@ -43,7 +43,7 @@ const Navbar = () => {
             onClick={() => scrollToSection("#hero")}
             className="text-2xl font-display font-semibold text-foreground"
           >
-            Ranch Design Co.
+            Brand Image Marketing
           </button>
 
           {/* Desktop Navigation */}

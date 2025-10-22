@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import bimLogo from "@/assets/bim-logo.png";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -41,9 +42,13 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <button
             onClick={() => scrollToSection("#hero")}
-            className="text-2xl font-display font-semibold text-foreground"
+            className="flex items-center"
           >
-            Brand Image Marketing
+            <img 
+              src={bimLogo} 
+              alt="Brand Image Marketing" 
+              className="h-12 w-auto"
+            />
           </button>
 
           {/* Desktop Navigation */}

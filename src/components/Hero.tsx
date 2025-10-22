@@ -41,7 +41,7 @@ const Hero = () => {
           Make sure it's worth remembering.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex justify-center">
           <Button
             size="lg"
             onClick={() => scrollToSection("#portfolio")}
@@ -49,14 +49,6 @@ const Hero = () => {
           >
             View Our Work
             <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
-          <Button
-            size="lg"
-            variant="outline"
-            onClick={() => scrollToSection("#contact")}
-            className="border-2 border-cream text-cream hover:bg-cream hover:text-charcoal text-base px-8"
-          >
-            Let's Talk
           </Button>
         </div>
       </div>

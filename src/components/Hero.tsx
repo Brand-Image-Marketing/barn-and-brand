@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-livestock.jpg";
+import bimLogo from "@/assets/bim-logo.png";
 
 const Hero = () => {
   const scrollToSection = (href: string) => {
@@ -21,6 +22,13 @@ const Hero = () => {
       />
       <div className="absolute inset-0 bg-charcoal/60" />
       <div className="container mx-auto text-center max-w-4xl fade-in relative z-10">
+        <div className="mb-8 flex justify-center">
+          <img 
+            src={bimLogo} 
+            alt="Brand Image Marketing" 
+            className="h-32 md:h-40 w-auto"
+          />
+        </div>
         <div className="mb-6 inline-block">
           <h1 className="text-5xl md:text-7xl font-display font-semibold text-cream mb-6 leading-tight">
             A Brand is a Mark That Lasts.

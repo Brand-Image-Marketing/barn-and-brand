@@ -40,7 +40,7 @@ const About = () => {
               </div>
 
               <div className="flex flex-col space-y-6">
-                <div className="bg-cream p-6 rounded-t-[200px] shadow-2xl">
+                <div className="bg-cream p-6 rounded-t-[200px] shadow-2xl border-4 border-tan">
                   <img 
                     src={ownerPhoto} 
                     alt="Brand Image Marketing Owner" 

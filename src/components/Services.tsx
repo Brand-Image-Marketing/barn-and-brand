@@ -1,6 +1,6 @@
 import { Share2, Mail, Target, Palette, Briefcase } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import leatherTooling from "@/assets/leather-texture.jpeg";
+import leatherTooling from "@/assets/leather-tooling.jpg";
 
 const Services = () => {
   const services = [

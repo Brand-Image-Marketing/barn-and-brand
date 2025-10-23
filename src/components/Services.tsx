@@ -62,7 +62,11 @@ const Services = () => {
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto font-body">
-            Strategic marketing solutions that help your brand connect, compete, and thrive.
+            Your brand is more than a name.
+            <br />
+            It's a claim, a promise, a story.
+            <br />
+            I bring it to life through the following services:
           </p>
         </div>
 

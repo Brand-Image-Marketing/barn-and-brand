@@ -16,14 +16,13 @@ const About = () => {
       <div className="absolute inset-0 bg-cream/20"></div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-display font-semibold text-cream mb-6">
-              A Story Rooted in Legacy.
-            </h2>
-            <div className="w-20 h-1 bg-tan mx-auto mb-6"></div>
-          </div>
-
           <div className="bg-cream/95 rounded-3xl p-8 md:p-12 border-4 border-tan/30 shadow-2xl">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl md:text-5xl font-display font-semibold text-foreground mb-6">
+                A Story Rooted in Legacy.
+              </h2>
+              <div className="w-20 h-1 bg-tan mx-auto mb-6"></div>
+            </div>
             <div className="grid md:grid-cols-2 gap-12 items-start">
               <div className="space-y-6">
                 <h3 className="text-2xl font-display font-semibold text-foreground mb-6">

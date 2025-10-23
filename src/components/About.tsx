@@ -37,11 +37,11 @@ const About = () => {
             </div>
 
             <div className="flex flex-col space-y-6">
-              <div className="overflow-hidden rounded-lg shadow-2xl">
+              <div className="bg-cream p-6 rounded-t-[200px] shadow-2xl">
                 <img 
                   src={ownerPhoto} 
                   alt="Brand Image Marketing Owner" 
-                  className="w-full h-auto object-cover"
+                  className="w-full h-auto object-cover rounded-t-[180px]"
                 />
               </div>
               <div className="space-y-6">

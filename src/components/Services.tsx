@@ -1,39 +1,43 @@
-import { Share2, Mail, Target, Palette, Briefcase } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import leatherTooling from "@/assets/leather-texture.jpeg";
+import socialMediaIcon from "@/assets/social-media-management.png";
+import emailMarketingIcon from "@/assets/email-marketing.png";
+import paidAdsIcon from "@/assets/paid-ads.png";
+import graphicDesignIcon from "@/assets/graphic-design.png";
+import marketingConsultingIcon from "@/assets/marketing-consulting.png";
 
 const Services = () => {
   const services = [
     {
-      icon: Share2,
+      icon: socialMediaIcon,
       title: "Social Media Management",
       description:
         "Build and engage your audience with strategic content that connects, converts, and creates lasting relationships.",
       features: ["Content Strategy", "Community Management", "Analytics & Reporting", "Platform Optimization"],
     },
     {
-      icon: Mail,
+      icon: emailMarketingIcon,
       title: "Email Marketing",
       description:
         "Craft compelling campaigns that land in inboxes and drive action, building loyalty one message at a time.",
       features: ["Campaign Design", "List Management", "Automation Setup", "Performance Tracking"],
     },
     {
-      icon: Target,
+      icon: paidAdsIcon,
       title: "Paid Ads",
       description:
         "Reach the right people at the right time with targeted advertising that maximizes ROI and grows your business.",
       features: ["Ad Strategy", "Campaign Management", "A/B Testing", "Budget Optimization"],
     },
     {
-      icon: Palette,
+      icon: graphicDesignIcon,
       title: "Graphic Design",
       description:
         "Create visual stories that capture attention and communicate your brand's message with clarity and impact.",
       features: ["Brand Identity", "Marketing Materials", "Social Graphics", "Print Design"],
     },
     {
-      icon: Briefcase,
+      icon: marketingConsultingIcon,
       title: "Marketing Consulting",
       description:
         "Strategic guidance to help you navigate the marketing landscape and build a brand that stands the test of time.",
@@ -78,7 +82,7 @@ const Services = () => {
             >
               <CardHeader>
                 <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                  <service.icon className="w-7 h-7 text-primary" />
+                  <img src={service.icon} alt={`${service.title} icon`} className="w-7 h-7" />
                 </div>
                 <CardTitle className="text-2xl font-display text-foreground">
                   {service.title}

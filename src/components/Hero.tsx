@@ -31,12 +31,14 @@ const Hero = () => {
         </div>
         <div className="mb-6 inline-block">
           <h1 className="text-5xl md:text-7xl font-display font-semibold text-cream mb-6 leading-tight">
-            Your Brand. Your Image. Your Marketing.
+            A Brand is a Mark That Lasts.
           </h1>
         </div>
 
         <p className="text-lg md:text-xl text-cream/90 mb-8 max-w-2xl mx-auto font-body leading-relaxed">
-          At Brand Image Marketing, I help businesses turn their mark into a story people can't forget. Those stories are built on three pillars — your brand, your image, and your marketing. Alone they have power, but together they overlap, support, and strengthen each other into a presence that feels authentic, polished, and unforgettable.
+          The permanent brand a calf wears represents heritage, history, and future. 
+          Your brand carries legacy too — its own mark of meaning.
+          Make sure it's worth remembering.
         </p>
 
         <div className="flex justify-center">

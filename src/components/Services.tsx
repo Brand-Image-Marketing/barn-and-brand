@@ -81,7 +81,7 @@ const Services = () => {
           {services.map((service, index) => (
             <Card
               key={index}
-              className="hover-lift bg-card border-border/50 transition-all duration-300 w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.33rem)]"
+              className="hover-lift bg-card border-border/50 transition-all duration-300 w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.5rem)]"
             >
               <CardHeader>
                 <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-4">

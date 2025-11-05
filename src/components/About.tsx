@@ -1,15 +1,25 @@
 import leatherTexture from "@/assets/leather-tooling-new.jpg";
+import aboutMobile from "@/assets/about-texture-mobile.jpg";
 import ownerPhoto from "@/assets/owner-photo.jpg";
 
 const About = () => {
   return (
     <section 
       id="about" 
-      className="py-24 relative overflow-hidden bg-cover bg-center bg-scroll md:bg-fixed"
+      className="py-24 relative overflow-hidden bg-top bg-scroll md:bg-fixed"
       style={{
-        backgroundImage: `url(${leatherTexture})`,
+        backgroundImage: `url(${aboutMobile})`,
+        backgroundSize: '100% auto',
       }}
     >
+      <style>{`
+        @media (min-width: 768px) {
+          #about {
+            background-image: url(${leatherTexture}) !important;
+            background-size: cover !important;
+          }
+        }
+      `}</style>
       <div className="absolute inset-0 bg-cream/20"></div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-6xl mx-auto">

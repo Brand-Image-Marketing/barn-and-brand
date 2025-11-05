@@ -1,6 +1,7 @@
 import { Share2, Mail, Target, Palette, Briefcase } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import leatherTooling from "@/assets/leather-texture-new.jpg";
+import leatherMobile from "@/assets/leather-texture-mobile.jpg";
 
 const Services = () => {
   const services = [
@@ -44,12 +45,18 @@ const Services = () => {
   return (
     <section 
       id="services" 
-      className="py-24 relative overflow-hidden bg-repeat bg-scroll md:bg-fixed"
+      className="py-24 relative overflow-hidden bg-cover bg-center bg-scroll md:bg-fixed"
       style={{
-        backgroundImage: `url(${leatherTooling})`,
-        backgroundSize: '400px',
+        backgroundImage: `url(${leatherMobile})`,
       }}
     >
+      <style>{`
+        @media (min-width: 768px) {
+          #services {
+            background-image: url(${leatherTooling}) !important;
+          }
+        }
+      `}</style>
       <div className="absolute inset-0 bg-black/10"></div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">

@@ -38,14 +38,12 @@ const Hero = () => {
         </div>
         <div className="mb-6 inline-block">
           <h1 className="text-5xl md:text-7xl font-display font-semibold text-cream mb-6 leading-tight">
-            A Brand is a Mark That Lasts.
+            Your Brand. Your Image. Your Marketing.
           </h1>
         </div>
 
         <p className="text-lg md:text-xl text-cream/90 mb-8 max-w-2xl mx-auto font-body leading-relaxed">
-          The permanent brand a calf wears represents heritage, history, and future. 
-          Your brand carries legacy too — its own mark of meaning.
-          Make sure it's worth remembering.
+          I help businesses turn their mark into an unforgettable story — uniting brand, image, and marketing into one authentic, polished, powerful presence.
         </p>
 
         <div className="flex justify-center">

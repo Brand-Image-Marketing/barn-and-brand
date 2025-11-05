@@ -1,7 +1,32 @@
 import { TrendingUp, Users, MousePointerClick, Heart, Eye } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import { useCountUp } from "@/hooks/useCountUp";
+import { useEffect, useRef, useState } from "react";
 
 const Results = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  const sectionRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+        }
+      },
+      { threshold: 0.2 }
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
   const fbStats = [
     { label: "Reach", from: "162,935", to: "2,508,534", growth: "1440%", icon: TrendingUp },
     { label: "Followers", from: "17,356", to: "30,846", growth: "78%", icon: Users },
@@ -18,6 +43,13 @@ const Results = () => {
 
   const StatCard = ({ stat }: { stat: typeof fbStats[0] }) => {
     const Icon = stat.icon;
+    const toNumber = parseInt(stat.to.replace(/,/g, ''));
+    const animatedCount = useCountUp(toNumber, 2000, isVisible);
+    
+    const formatNumber = (num: number) => {
+      return num.toLocaleString();
+    };
+
     return (
       <Card className="bg-card/80 backdrop-blur-sm border-2 border-primary/20 hover-lift">
         <CardContent className="p-6">
@@ -35,7 +67,7 @@ const Results = () => {
           <div className="space-y-2">
             <div className="flex items-baseline gap-2">
               <span className="text-2xl font-display font-bold text-foreground">
-                {stat.to}
+                {formatNumber(animatedCount)}
               </span>
             </div>
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
@@ -49,7 +81,7 @@ const Results = () => {
   };
 
   return (
-    <section id="results" className="py-24 bg-gradient-to-br from-brown via-brown to-charcoal relative overflow-hidden">
+    <section ref={sectionRef} id="results" className="py-24 bg-gradient-to-br from-brown via-brown to-charcoal relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-0 w-96 h-96 bg-tan rounded-full blur-3xl"></div>

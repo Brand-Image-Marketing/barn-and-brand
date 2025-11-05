@@ -1,6 +1,8 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-branding.jpg";
+import heroDesktop from "@/assets/hero-desktop.jpg";
+import heroTablet from "@/assets/hero-tablet.jpg";
+import heroMobile from "@/assets/hero-mobile.jpg";
 import bimLogo from "@/assets/bim-logo.png";
 
 const Hero = () => {
@@ -16,10 +18,15 @@ const Hero = () => {
       id="hero"
       className="min-h-screen flex items-center justify-center relative px-4 pt-20 overflow-hidden"
     >
-      <div 
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      />
+      <picture className="absolute inset-0">
+        <source media="(min-width: 1024px)" srcSet={heroDesktop} />
+        <source media="(min-width: 768px)" srcSet={heroTablet} />
+        <img 
+          src={heroMobile}
+          alt="Brand Image Marketing - Cowboy hat with brand"
+          className="w-full h-full object-cover"
+        />
+      </picture>
       <div className="absolute inset-0 bg-charcoal/60" />
       <div className="container mx-auto text-center max-w-4xl fade-in relative z-10">
         <div className="mb-8 flex justify-center">

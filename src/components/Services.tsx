@@ -45,15 +45,17 @@ const Services = () => {
   return (
     <section 
       id="services" 
-      className="py-24 relative overflow-hidden bg-cover bg-center bg-scroll md:bg-fixed"
+      className="py-24 relative overflow-hidden bg-top bg-scroll md:bg-fixed"
       style={{
         backgroundImage: `url(${leatherMobile})`,
+        backgroundSize: '100% auto',
       }}
     >
       <style>{`
         @media (min-width: 768px) {
           #services {
             background-image: url(${leatherTooling}) !important;
+            background-size: cover !important;
           }
         }
       `}</style>

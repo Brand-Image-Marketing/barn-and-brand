@@ -44,9 +44,10 @@ const Services = () => {
   return (
     <section 
       id="services" 
-      className="py-24 relative overflow-hidden bg-cover bg-center bg-scroll md:bg-fixed"
+      className="py-24 relative overflow-hidden bg-repeat bg-scroll md:bg-fixed"
       style={{
         backgroundImage: `url(${leatherTooling})`,
+        backgroundSize: '400px',
       }}
     >
       <div className="absolute inset-0 bg-black/10"></div>

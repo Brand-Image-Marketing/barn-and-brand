@@ -47,13 +47,6 @@ const About = () => {
               </div>
 
               <div className="flex flex-col space-y-6">
-                <div className="bg-cream p-4 md:p-6 rounded-t-[200px] shadow-2xl border-4 border-tan overflow-hidden">
-                  <img 
-                    src={ownerPhoto} 
-                    alt="Brand Image Marketing Owner" 
-                    className="w-full h-auto object-cover rounded-t-[180px]"
-                  />
-                </div>
                 <div className="space-y-6">
                   <p className="text-lg text-foreground/90 font-body leading-relaxed">
                     When I'm not helping clients build their brands, I'm at home on the ranch in Augusta, Montana, with my husband, Tucker, and our two kids, Maya and Rio. My children are fifth generation on this land — together we're raising cattle, raising a family, <em>and carrying forward a life built on legacy.</em>
@@ -72,6 +65,13 @@ const About = () => {
                       It is <em>a mark that lasts.</em>
                     </p>
                   </div>
+                </div>
+                <div className="bg-cream p-4 md:p-6 rounded-t-[200px] shadow-2xl border-4 border-tan overflow-hidden">
+                  <img 
+                    src={ownerPhoto} 
+                    alt="Brand Image Marketing Owner" 
+                    className="w-full h-auto object-cover rounded-t-[180px]"
+                  />
                 </div>
               </div>
             </div>

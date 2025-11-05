@@ -1,4 +1,4 @@
-import leatherTexture from "@/assets/leather-tooling.jpg";
+import leatherTexture from "@/assets/leather-tooling-new.jpg";
 import ownerPhoto from "@/assets/owner-photo.jpg";
 
 const About = () => {

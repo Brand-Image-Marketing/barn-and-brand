@@ -70,8 +70,8 @@ const Results = () => {
                 {formatNumber(animatedCount)}
               </span>
             </div>
-            <div className="flex items-center gap-2 text-sm text-muted-foreground">
-              <span className="line-through opacity-60">{stat.from}</span>
+            <div className="flex items-center gap-2 text-base text-foreground/70">
+              <span className="line-through">{stat.from}</span>
               <TrendingUp className="w-4 h-4 text-accent" />
             </div>
           </div>

@@ -62,13 +62,13 @@ const Services = () => {
       <div className="absolute inset-0 bg-black/10"></div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-display font-semibold text-white mb-6">
+          <h2 className="text-4xl md:text-5xl font-display font-semibold text-foreground mb-6">
             Services Built for
             <br />
             <span className="text-primary">Growth</span>
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
-          <p className="text-lg text-white/90 max-w-2xl mx-auto font-body">
+          <p className="text-lg text-foreground/70 max-w-2xl mx-auto font-body">
             Your brand is more than a name.
             <br />
             It's a claim, a promise, a story.
@@ -87,17 +87,17 @@ const Services = () => {
                 <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                   <service.icon className="w-7 h-7 text-primary" />
                 </div>
-                <CardTitle className="text-2xl font-display text-white">
+                <CardTitle className="text-2xl font-display text-foreground">
                   {service.title}
                 </CardTitle>
-                <CardDescription className="text-white/80 font-body text-base">
+                <CardDescription className="text-foreground/70 font-body text-base">
                   {service.description}
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2">
                   {service.features.map((feature, idx) => (
-                    <li key={idx} className="flex items-center text-white/70 font-body">
+                    <li key={idx} className="flex items-center text-foreground/80 font-body">
                       <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3"></div>
                       {feature}
                     </li>

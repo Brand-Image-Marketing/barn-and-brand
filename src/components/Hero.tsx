@@ -27,7 +27,7 @@ const Hero = () => {
           className="w-full h-full object-cover"
         />
       </picture>
-      <div className="absolute inset-0 bg-charcoal/60" />
+      <div className="absolute inset-0 bg-charcoal/40" />
       <div className="container mx-auto text-center max-w-4xl fade-in relative z-10">
         <div className="mb-8 flex justify-center">
           <img 

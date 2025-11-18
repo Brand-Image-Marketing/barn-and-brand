@@ -8,6 +8,7 @@ const Services = () => {
     {
       icon: Share2,
       title: "Social Media Management",
+      tagline: "Where connection meets conversion.",
       description:
         "Build and engage your audience with strategic content that connects, converts, and creates lasting relationships.",
       features: ["Content Strategy", "Community Management", "Analytics & Reporting", "Platform Optimization"],
@@ -15,6 +16,7 @@ const Services = () => {
     {
       icon: Mail,
       title: "Email Marketing",
+      tagline: "Inbox impact, not clutter.",
       description:
         "Craft compelling campaigns that land in inboxes and drive action, building loyalty one message at a time.",
       features: ["Campaign Design", "List Management", "Automation Setup", "Performance Tracking"],
@@ -22,6 +24,7 @@ const Services = () => {
     {
       icon: Target,
       title: "Paid Ads",
+      tagline: "Stories that sell… amplified.",
       description:
         "Reach the right people at the right time with targeted advertising that maximizes ROI and grows your business.",
       features: ["Ad Strategy", "Campaign Management", "A/B Testing", "Budget Optimization"],
@@ -29,6 +32,7 @@ const Services = () => {
     {
       icon: Palette,
       title: "Graphic Design",
+      tagline: "Visuals that tell your story.",
       description:
         "Create visual stories that capture attention and communicate your brand's message with clarity and impact.",
       features: ["Brand Identity", "Marketing Materials", "Social Graphics", "Print Design"],
@@ -36,6 +40,7 @@ const Services = () => {
     {
       icon: Briefcase,
       title: "Marketing Consulting",
+      tagline: "Clarity, confidence, and direction.",
       description:
         "Strategic guidance to help you navigate the marketing landscape and build a brand that stands the test of time.",
       features: ["Brand Strategy", "Market Analysis", "Growth Planning", "Strategic Direction"],
@@ -88,6 +93,9 @@ const Services = () => {
                 <CardTitle className="text-2xl font-display text-foreground">
                   {service.title}
                 </CardTitle>
+                <p className="text-foreground/60 font-body text-sm italic mt-2">
+                  {service.tagline}
+                </p>
                 <CardDescription className="text-foreground/70 font-body text-base">
                   {service.description}
                 </CardDescription>

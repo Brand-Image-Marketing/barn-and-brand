@@ -47,7 +47,11 @@ const Navbar = () => {
               <button
                 key={link.href}
                 onClick={() => scrollToSection(link.href)}
-                className="text-foreground/80 hover:text-foreground transition-colors font-body"
+                className={`transition-colors font-body ${
+                  isScrolled
+                    ? "text-foreground/80 hover:text-foreground"
+                    : "text-white/90 hover:text-white"
+                }`}
               >
                 {link.label}
               </button>
@@ -63,7 +67,9 @@ const Navbar = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden text-foreground"
+            className={`md:hidden transition-colors ${
+              isScrolled ? "text-foreground" : "text-white"
+            }`}
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -76,7 +82,11 @@ const Navbar = () => {
               <button
                 key={link.href}
                 onClick={() => scrollToSection(link.href)}
-                className="block w-full text-left text-foreground/80 hover:text-foreground transition-colors py-2 font-body"
+                className={`block w-full text-left transition-colors py-2 font-body ${
+                  isScrolled
+                    ? "text-foreground/80 hover:text-foreground"
+                    : "text-white/90 hover:text-white"
+                }`}
               >
                 {link.label}
               </button>

@@ -53,10 +53,10 @@ const Hero = () => {
         <div className="flex justify-center">
           <Button
             size="lg"
-            onClick={() => scrollToSection("#portfolio")}
+            onClick={() => scrollToSection("#services")}
             className="bg-primary text-primary-foreground hover:bg-primary/90 text-base px-8"
           >
-            View Our Work
+            Discover the Work Behind the Mark
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
         </div>

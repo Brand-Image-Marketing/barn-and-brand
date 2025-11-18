@@ -74,10 +74,10 @@ const Footer = () => {
                   <div>
                     <div className="font-body font-medium mb-1">Email</div>
                     <a
-                      href="mailto:hello@ranchdesign.com"
+                      href="mailto:mari@brandimagemarketing.com"
                       className="text-card/70 hover:text-card transition-colors font-body"
                     >
-                      hello@ranchdesign.com
+                      mari@brandimagemarketing.com
                     </a>
                   </div>
                 </div>
@@ -89,10 +89,10 @@ const Footer = () => {
                   <div>
                     <div className="font-body font-medium mb-1">Phone</div>
                     <a
-                      href="tel:+15551234567"
+                      href="tel:+14065907012"
                       className="text-card/70 hover:text-card transition-colors font-body"
                     >
-                      (555) 123-4567
+                      406-590-7012
                     </a>
                   </div>
                 </div>

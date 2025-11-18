@@ -10,7 +10,7 @@ const Services = () => {
       title: "Social Media Management",
       tagline: "Where connection meets conversion.",
       description:
-        "Build and engage your audience with strategic content that connects, converts, and creates lasting relationships.",
+        "Build and engage your audience with strategy that connects, converts, and creates loyal customers.",
       features: ["Content Strategy", "Community Management", "Analytics & Reporting", "Platform Optimization"],
     },
     {
@@ -18,7 +18,7 @@ const Services = () => {
       title: "Email Marketing",
       tagline: "Inbox impact, not clutter.",
       description:
-        "Craft compelling campaigns that land in inboxes and drive action, building loyalty one message at a time.",
+        "Craft campaigns that land with purpose; building loyalty and driving clicks that count.",
       features: ["Campaign Design", "List Management", "Automation Setup", "Performance Tracking"],
     },
     {
@@ -26,7 +26,7 @@ const Services = () => {
       title: "Paid Ads",
       tagline: "Stories that sell… amplified.",
       description:
-        "Reach the right people at the right time with targeted advertising that maximizes ROI and grows your business.",
+        "Reach the right people with the right message; ads that stop the scroll and spark results.",
       features: ["Ad Strategy", "Campaign Management", "A/B Testing", "Budget Optimization"],
     },
     {
@@ -34,7 +34,7 @@ const Services = () => {
       title: "Graphic Design",
       tagline: "Visuals that tell your story.",
       description:
-        "Create visual stories that capture attention and communicate your brand's message with clarity and impact.",
+        "Create visuals that strengthen your brand and make a lasting impression.",
       features: ["Brand Identity", "Marketing Materials", "Social Graphics", "Print Design"],
     },
     {
@@ -42,7 +42,7 @@ const Services = () => {
       title: "Marketing Consulting",
       tagline: "Clarity, confidence, and direction.",
       description:
-        "Strategic guidance to help you navigate the marketing landscape and build a brand that stands the test of time.",
+        "Get a strategy that aligns your message, goals, and growth for long-term success.",
       features: ["Brand Strategy", "Market Analysis", "Growth Planning", "Strategic Direction"],
     },
   ];

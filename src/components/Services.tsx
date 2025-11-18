@@ -94,7 +94,12 @@ const Services = () => {
               </CardHeader>
               <CardContent className="flex justify-center">
                 <ul className="space-y-2">
-...
+                  {service.features.map((feature, idx) => (
+                    <li key={idx} className="flex items-center text-foreground/80 font-body">
+                      <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3"></div>
+                      {feature}
+                    </li>
+                  ))}
                 </ul>
               </CardContent>
             </Card>

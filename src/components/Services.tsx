@@ -63,9 +63,7 @@ const Services = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-display font-semibold text-white mb-6">
-            The Services Built for
-            <br />
-            <span className="text-primary">Growth</span>
+            The Services
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-lg text-white/90 max-w-2xl mx-auto font-body">

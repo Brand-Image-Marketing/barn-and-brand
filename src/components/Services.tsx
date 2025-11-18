@@ -69,7 +69,7 @@ const Services = () => {
           <p className="text-lg text-white/90 max-w-2xl mx-auto font-body">
             Your brand is more than a name.
             <br />
-            It's a claim, a promise, a story.
+            <strong><em>It's a claim, a promise, a story.</em></strong>
             <br />
             I bring it to life through the following services:
           </p>

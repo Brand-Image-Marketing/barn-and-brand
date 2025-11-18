@@ -25,7 +25,7 @@ const Footer = () => {
                 src="https://airtable.com/embed/appBQcGrZeZ0fJ2P3/pagKG3cXUbVZ9IR5I/form" 
                 frameBorder="0" 
                 width="100%" 
-                height="533" 
+                height="1000" 
                 style={{ background: 'transparent', border: '1px solid #ccc' }}
               />
             </div>

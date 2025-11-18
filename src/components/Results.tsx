@@ -137,13 +137,6 @@ const Results = () => {
               ))}
             </div>
           </div>
-
-          {/* Bottom CTA */}
-          <div className="mt-16 text-center">
-            <p className="text-xl font-display text-cream/90 italic">
-              These aren't just numbers — they're <span className="text-tan font-bold not-italic">stories of impact</span>.
-            </p>
-          </div>
         </div>
       </div>
     </section>

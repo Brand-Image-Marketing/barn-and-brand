@@ -11,7 +11,7 @@ const Services = () => {
       tagline: "Where connection meets conversion.",
       description:
         "Build and engage your audience with strategy that connects, converts, and creates loyal customers.",
-      features: ["Content Strategy", "Community Management", "Analytics & Reporting", "Platform Optimization"],
+      features: ["Content Strategy & Planning", "Community Management", "Analytics & Reporting", "Platform Optimization"],
     },
     {
       icon: Mail,

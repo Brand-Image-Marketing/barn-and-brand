@@ -26,7 +26,7 @@ const Footer = () => {
                 frameBorder="0" 
                 width="100%" 
                 height="1030" 
-                style={{ background: 'transparent', border: '1px solid #ccc' }}
+                style={{ background: 'transparent', border: 'none' }}
               />
             </div>
 

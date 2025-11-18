@@ -97,10 +97,9 @@ const Footer = () => {
                   </div>
                 </div>
 
-
                 <div className="pt-6">
                   <p className="text-card/60 font-body text-sm italic">
-                    <strong className="text-card/80">"Your brand. Your image. Your marketing."</strong>
+                    <strong className="text-card/80">Your brand. Your image. Your marketing.</strong>
                     <br />
                     Three words. One mission. A mark that lasts.
                   </p>

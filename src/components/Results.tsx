@@ -93,7 +93,7 @@ const Results = () => {
           {/* Header */}
           <div className="text-center mb-16 space-y-6">
             <h2 className="text-4xl md:text-5xl font-display font-bold text-cream">
-              Real Results. Real <span className="text-tan">Growth</span>.
+              The Proof
             </h2>
             <div className="w-20 h-1 bg-tan mx-auto"></div>
             <p className="text-lg text-cream/90 font-body max-w-2xl mx-auto">

@@ -23,11 +23,10 @@ const Footer = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-display font-semibold mb-6">
-              Let's Build Your Brand
+              Let's Make Your Mark
             </h2>
             <p className="text-card/70 text-lg font-body max-w-2xl mx-auto">
-              Ready to elevate your livestock business with professional design? Get in touch
-              today.
+              Every partnership starts with a conversation. Whether you're ready to build your brand from the ground up, refine your image, or bring fresh strategy to your marketing, I'd love to hear your story.
             </p>
           </div>
 

@@ -47,7 +47,7 @@ const Hero = () => {
         </div>
 
         <p className="text-lg md:text-xl text-cream/90 mb-8 max-w-2xl mx-auto font-body leading-relaxed">
-          I help businesses turn their mark into an unforgettable story — uniting brand, image, and marketing into one authentic, polished, powerful presence.
+          I help businesses turn their mark into an unforgettable story; uniting <em>brand</em>, <em>image</em>, and <em>marketing</em> into one authentic, polished, powerful presence.
         </p>
 
         <div className="flex justify-center">

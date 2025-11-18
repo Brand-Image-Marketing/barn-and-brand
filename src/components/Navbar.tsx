@@ -16,10 +16,10 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { label: "About", href: "#about" },
-    { label: "Services", href: "#services" },
-    { label: "Portfolio", href: "#portfolio" },
-    { label: "Contact", href: "#contact" },
+    { label: "The Services", href: "#services" },
+    { label: "The Proof", href: "#portfolio" },
+    { label: "The Story", href: "#about" },
+    { label: "Make Your Mark", href: "#contact" },
   ];
 
   const scrollToSection = (href: string) => {

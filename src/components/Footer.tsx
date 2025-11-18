@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -33,7 +33,7 @@ const Footer = () => {
           <div className="grid md:grid-cols-2 gap-12 mb-16">
             {/* Contact Form */}
             <div>
-              <h3 className="text-2xl font-display font-semibold mb-6">Send a Message</h3>
+              <h3 className="text-2xl font-display font-semibold mb-6">Start the Conversation</h3>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <Input
                   type="text"
@@ -97,19 +97,10 @@ const Footer = () => {
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <MapPin className="w-6 h-6 text-primary" />
-                  </div>
-                  <div>
-                    <div className="font-body font-medium mb-1">Location</div>
-                    <p className="text-card/70 font-body">Serving the Livestock Industry Nationwide</p>
-                  </div>
-                </div>
 
                 <div className="pt-6">
                   <p className="text-card/60 font-body text-sm italic">
-                    "We're here to help you create a brand as strong as your stock."
+                    "Your brand. Your image. Your marketing. Three words. One mission. A mark that lasts."
                   </p>
                 </div>
               </div>

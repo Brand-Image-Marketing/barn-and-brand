@@ -53,26 +53,22 @@ const Results = () => {
     return (
       <Card className="bg-card/80 backdrop-blur-sm border-2 border-primary/20 hover-lift">
         <CardContent className="p-6">
-          <div className="flex items-start justify-between mb-4">
-            <div className="flex items-center gap-2">
-              <Icon className="w-5 h-5 text-primary" />
-              <h4 className="text-sm font-display font-semibold text-foreground uppercase tracking-wide">
-                {stat.label}
-              </h4>
-            </div>
-            <div className="bg-accent text-accent-foreground px-3 py-1 rounded-full text-xs font-bold">
-              +{stat.growth}
-            </div>
+          <div className="flex items-center gap-2 mb-4">
+            <Icon className="w-5 h-5 text-primary" />
+            <h4 className="text-sm font-display font-semibold text-foreground uppercase tracking-wide">
+              {stat.label}
+            </h4>
           </div>
           <div className="space-y-2">
             <div className="flex items-baseline gap-2">
-              <span className="text-2xl font-display font-bold text-foreground">
-                {formatNumber(animatedCount)}
+              <span className="text-3xl font-display font-bold text-accent">
+                +{stat.growth}
               </span>
             </div>
-            <div className="flex items-center gap-2 text-base text-foreground/70">
+            <div className="flex items-center gap-2 text-sm text-foreground/70">
               <span className="line-through">{stat.from}</span>
               <TrendingUp className="w-4 h-4 text-accent" />
+              <span className="font-semibold text-foreground">{formatNumber(animatedCount)}</span>
             </div>
           </div>
         </CardContent>

@@ -35,7 +35,7 @@ const Services = () => {
       tagline: "Visuals that tell your story.",
       description:
         "Create visuals that strengthen your brand and make a lasting impression.",
-      features: ["Brand Identity", "Marketing Materials", "Social Graphics", "Print Design"],
+      features: ["Logo & Brand Design", "Marketing Materials", "Social Graphics", "Print Design"],
     },
     {
       icon: Briefcase,

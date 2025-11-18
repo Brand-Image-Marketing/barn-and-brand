@@ -79,9 +79,9 @@ const Services = () => {
           {services.map((service, index) => (
             <Card
               key={index}
-              className="hover-lift bg-card border-border/50 transition-all duration-300 w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.5rem)]"
+              className="hover-lift bg-card border-border/50 transition-all duration-300 w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.5rem)] text-center"
             >
-              <CardHeader>
+              <CardHeader className="items-center">
                 <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                   <service.icon className="w-7 h-7 text-primary" />
                 </div>
@@ -92,14 +92,9 @@ const Services = () => {
                   {service.description}
                 </CardDescription>
               </CardHeader>
-              <CardContent>
+              <CardContent className="flex justify-center">
                 <ul className="space-y-2">
-                  {service.features.map((feature, idx) => (
-                    <li key={idx} className="flex items-center text-foreground/80 font-body">
-                      <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3"></div>
-                      {feature}
-                    </li>
-                  ))}
+...
                 </ul>
               </CardContent>
             </Card>

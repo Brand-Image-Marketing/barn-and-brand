@@ -40,16 +40,6 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <button
-            onClick={() => scrollToSection("#hero")}
-            className="flex items-center"
-          >
-            <img 
-              src={bimLogo} 
-              alt="Brand Image Marketing" 
-              className="h-12 w-auto"
-            />
-          </button>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">

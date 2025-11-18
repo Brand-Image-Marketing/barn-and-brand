@@ -1,20 +1,6 @@
 import { Mail, Phone } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { useToast } from "@/hooks/use-toast";
 
 const Footer = () => {
-  const { toast } = useToast();
-
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    toast({
-      title: "Message Sent!",
-      description: "We'll get back to you within 24 hours.",
-    });
-    (e.target as HTMLFormElement).reset();
-  };
 
   return (
     <footer id="contact" className="bg-charcoal text-card">
@@ -34,33 +20,14 @@ const Footer = () => {
             {/* Contact Form */}
             <div>
               <h3 className="text-2xl font-display font-semibold mb-6">Start the Conversation</h3>
-              <form onSubmit={handleSubmit} className="space-y-4">
-                <Input
-                  type="text"
-                  placeholder="Your Name"
-                  required
-                  className="bg-card/10 border-card/20 text-card placeholder:text-card/50"
-                />
-                <Input
-                  type="email"
-                  placeholder="Your Email"
-                  required
-                  className="bg-card/10 border-card/20 text-card placeholder:text-card/50"
-                />
-                <Textarea
-                  placeholder="Tell us about your project..."
-                  rows={5}
-                  required
-                  className="bg-card/10 border-card/20 text-card placeholder:text-card/50"
-                />
-                <Button
-                  type="submit"
-                  className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
-                  size="lg"
-                >
-                  Send Message
-                </Button>
-              </form>
+              <iframe 
+                className="airtable-embed w-full" 
+                src="https://airtable.com/embed/appBQcGrZeZ0fJ2P3/pagKG3cXUbVZ9IR5I/form" 
+                frameBorder="0" 
+                width="100%" 
+                height="533" 
+                style={{ background: 'transparent', border: '1px solid #ccc' }}
+              />
             </div>
 
             {/* Contact Info */}

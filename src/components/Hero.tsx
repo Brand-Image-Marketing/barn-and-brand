@@ -38,11 +38,11 @@ const Hero = () => {
         </div>
         <div className="mb-6 inline-block">
           <h1 className="text-4xl md:text-7xl font-display font-semibold text-cream mb-6 leading-tight">
-            Your Brand.
+            Your Brand
             <br />
-            Your Image.
+            Your Image
             <br />
-            Your Marketing.
+            Your Marketing
           </h1>
         </div>
 

@@ -29,13 +29,6 @@ const Hero = () => {
       </picture>
       <div className="absolute inset-0 bg-charcoal/40" />
       <div className="container mx-auto text-center max-w-4xl fade-in relative z-10">
-        <div className="mb-8 flex justify-center">
-          <img 
-            src={bimLogo} 
-            alt="Brand Image Marketing" 
-            className="h-32 md:h-40 w-auto"
-          />
-        </div>
         <div className="mb-6 inline-block">
           <h1 className="text-4xl md:text-7xl font-display font-semibold text-cream mb-6 leading-tight">
             Your Brand
@@ -44,6 +37,13 @@ const Hero = () => {
             <br />
             Your Marketing
           </h1>
+        </div>
+        <div className="mb-8 flex justify-center">
+          <img 
+            src={bimLogo} 
+            alt="Brand Image Marketing" 
+            className="h-32 md:h-40 w-auto"
+          />
         </div>
 
         <p className="text-lg md:text-xl text-cream/90 mb-8 max-w-2xl mx-auto font-body leading-relaxed">

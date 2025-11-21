@@ -14,22 +14,6 @@ const Services = () => {
       features: ["Content Strategy & Planning", "Community Management", "Analytics & Reporting", "Platform Optimization"],
     },
     {
-      icon: Mail,
-      title: "Email Marketing",
-      tagline: "Inbox impact, not clutter.",
-      description:
-        "Craft campaigns that land with purpose; building loyalty and driving clicks that count.",
-      features: ["Campaign Design", "List Management", "Automation Setup", "Performance Tracking"],
-    },
-    {
-      icon: Target,
-      title: "Paid Ads",
-      tagline: "Stories that sell… amplified.",
-      description:
-        "Reach the right people with the right message; ads that stop the scroll and spark results.",
-      features: ["Ad Strategy", "Campaign Management", "A/B Testing", "Budget Optimization"],
-    },
-    {
       icon: Palette,
       title: "Graphic Design",
       tagline: "Visuals that tell your story.",
@@ -44,6 +28,22 @@ const Services = () => {
       description:
         "Get a strategy that aligns your message, goals, and growth for long-term success.",
       features: ["Brand Strategy", "Market Analysis", "Growth Planning", "Strategic Direction"],
+    },
+    {
+      icon: Mail,
+      title: "Email Marketing",
+      tagline: "Inbox impact, not clutter.",
+      description:
+        "Craft campaigns that land with purpose; building loyalty and driving clicks that count.",
+      features: ["Campaign Design", "List Management", "Automation Setup", "Performance Tracking"],
+    },
+    {
+      icon: Target,
+      title: "Paid Ads",
+      tagline: "Stories that sell… amplified.",
+      description:
+        "Reach the right people with the right message; ads that stop the scroll and spark results.",
+      features: ["Ad Strategy", "Campaign Management", "A/B Testing", "Budget Optimization"],
     },
   ];
 

@@ -35,11 +35,11 @@ const Portfolio = () => {
       <div className="absolute inset-0 bg-black/10"></div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-display font-semibold text-white mb-6">
+          <h2 className="text-4xl md:text-5xl font-display font-semibold text-foreground mb-6">
             The Work
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
-          <p className="text-lg text-white/90 max-w-2xl mx-auto font-body">
+          <p className="text-lg text-foreground/90 max-w-2xl mx-auto font-body">
             <strong><em>Real results. Real impact.</em></strong>
             <br />
             Here's a glimpse of the work that connects brands with their people.
@@ -58,10 +58,10 @@ const Portfolio = () => {
             </CardContent>
           </Card>
           <div className="text-center mt-6">
-            <h3 className="text-2xl font-display font-semibold text-white mb-2">
+            <h3 className="text-2xl font-display font-semibold text-foreground mb-2">
               Graphic Design Portfolio
             </h3>
-            <p className="text-white/80 font-body">
+            <p className="text-foreground/80 font-body">
               Brand identities, social graphics, and marketing materials that make an impression.
             </p>
           </div>
@@ -70,10 +70,10 @@ const Portfolio = () => {
         {/* High Impact Content Grid */}
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h3 className="text-3xl font-display font-semibold text-white mb-4">
+            <h3 className="text-3xl font-display font-semibold text-foreground mb-4">
               High-Impact Content
             </h3>
-            <p className="text-white/80 font-body">
+            <p className="text-foreground/80 font-body">
               Content that stops the scroll and drives real engagement across platforms.
             </p>
           </div>

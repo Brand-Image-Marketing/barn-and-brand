@@ -49,17 +49,6 @@ const Hero = () => {
         <p className="text-lg md:text-xl text-cream/90 mb-8 max-w-2xl mx-auto font-body leading-relaxed">
           I help businesses turn their mark into an unforgettable story; uniting <em>brand</em>, <em>image</em>, and <em>marketing</em> into one authentic, polished, powerful presence.
         </p>
-
-        <div className="flex justify-center">
-          <Button
-            size="lg"
-            onClick={() => scrollToSection("#services")}
-            className="bg-primary text-primary-foreground hover:bg-primary/90 text-base px-8"
-          >
-            Discover the Work Behind the Mark
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
-        </div>
       </div>
     </section>
   );

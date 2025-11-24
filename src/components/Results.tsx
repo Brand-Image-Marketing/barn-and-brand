@@ -2,6 +2,10 @@ import { TrendingUp, Users, MousePointerClick, Heart, Eye } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { useCountUp } from "@/hooks/useCountUp";
 import { useEffect, useRef, useState } from "react";
+import impact1 from "@/assets/impact-1.png";
+import impact2 from "@/assets/impact-2.png";
+import impact3 from "@/assets/impact-3.png";
+import impact4 from "@/assets/impact-4.png";
 
 const Results = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -39,6 +43,13 @@ const Results = () => {
     { label: "Followers", from: "15,098", to: "20,543", growth: "36%", icon: Users },
     { label: "Interactions", from: "110,146", to: "220,795", growth: "117%", icon: Heart },
     { label: "Views", from: "6,120", to: "58,211", growth: "875%", icon: Eye },
+  ];
+
+  const impactExamples = [
+    { image: impact1, platform: "Instagram", alt: "Stock show tan Instagram post with engagement metrics" },
+    { image: impact2, platform: "Facebook", alt: "Livestock teaching Facebook post with engagement metrics" },
+    { image: impact3, platform: "Facebook", alt: "Stock show code Facebook post with engagement metrics" },
+    { image: impact4, platform: "TikTok", alt: "Horse grooming TikTok with engagement metrics" },
   ];
 
   const StatCard = ({ stat }: { stat: typeof fbStats[0] }) => {
@@ -133,6 +144,34 @@ const Results = () => {
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {igStats.map((stat, index) => (
                 <StatCard key={index} stat={stat} />
+              ))}
+            </div>
+          </div>
+
+          {/* High Impact Content Grid */}
+          <div className="mt-16">
+            <div className="text-center mb-12">
+              <h3 className="text-3xl font-display font-semibold text-cream mb-4">
+                High-Impact Content
+              </h3>
+              <p className="text-cream/90 font-body">
+                Content that stops the scroll and drives real engagement across platforms.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {impactExamples.map((example, index) => (
+                <Card 
+                  key={index}
+                  className="bg-card/95 border-border/50 overflow-hidden hover-lift transition-all duration-300"
+                >
+                  <CardContent className="p-0">
+                    <img 
+                      src={example.image} 
+                      alt={example.alt}
+                      className="w-full h-auto"
+                    />
+                  </CardContent>
+                </Card>
               ))}
             </div>
           </div>

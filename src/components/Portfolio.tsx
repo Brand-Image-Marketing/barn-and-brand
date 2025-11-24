@@ -17,9 +17,11 @@ const Portfolio = () => {
   return (
     <section 
       id="designs" 
-      className="py-24 relative overflow-hidden bg-cover bg-center"
+      className="py-24 relative overflow-hidden"
       style={{
         backgroundImage: `url(${brandBackground})`,
+        backgroundSize: 'auto',
+        backgroundRepeat: 'repeat',
       }}
     >
       <div className="absolute inset-0 bg-black/10"></div>

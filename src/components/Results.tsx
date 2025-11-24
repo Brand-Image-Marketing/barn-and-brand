@@ -155,7 +155,7 @@ const Results = () => {
                 High-Impact Content
               </h3>
               <p className="text-cream/90 font-body">
-                Content that stops the scroll and drives real engagement across platforms.
+                A curated collection of the posts that traveled farthest. Content shaped by story, rooted in connection, and amplified organically by the people it resonated with.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

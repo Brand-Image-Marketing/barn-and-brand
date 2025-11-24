@@ -73,7 +73,7 @@ const About = () => {
                 Brand Image Marketing didn't start with a business plan. It started at my kitchen table after the kids fell asleep and the ranch work was done; in the quiet hours where ideas grow if you're willing to meet them.
               </p>
               <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                No formal training.<br></>No shortcuts.<br>Just self-taught skills, word of mouth, earned trust, and the belief that good work doesn't need to be shouted to be felt.
+                No formal training.<br />No shortcuts.<br />Just self-taught skills, word of mouth, earned trust, and the belief that good work doesn't need to be shouted to be felt.
               </p>
               <p className="text-lg text-foreground/90 font-body leading-relaxed">
                 Today, I help businesses build brands with the same values this ranch teaches every day:

@@ -1,4 +1,4 @@
-import { Mail, Phone } from "lucide-react";
+import { Mail } from "lucide-react";
 
 const Footer = () => {
 
@@ -45,21 +45,6 @@ const Footer = () => {
                       className="text-card/70 hover:text-card transition-colors font-body"
                     >
                       mari@brandimagemarketing.com
-                    </a>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Phone className="w-6 h-6 text-primary" />
-                  </div>
-                  <div>
-                    <div className="font-body font-medium mb-1">Phone</div>
-                    <a
-                      href="tel:+14065907012"
-                      className="text-card/70 hover:text-card transition-colors font-body"
-                    >
-                      406-590-7012
                     </a>
                   </div>
                 </div>

@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import graphicSamples from "@/assets/graphic-samples.png";
-import brandBackground from "@/assets/brand-background.jpg";
+import designsBackground from "@/assets/designs-background.jpg";
 
 const Portfolio = () => {
 
@@ -9,9 +9,9 @@ const Portfolio = () => {
       id="designs" 
       className="py-24 relative overflow-hidden"
       style={{
-        backgroundImage: `url(${brandBackground})`,
-        backgroundSize: 'auto',
-        backgroundRepeat: 'repeat',
+        backgroundImage: `url(${designsBackground})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
       }}
     >
       <div className="container mx-auto px-4 relative z-10">

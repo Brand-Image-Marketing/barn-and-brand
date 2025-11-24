@@ -42,7 +42,7 @@ const Hero = () => {
           <img 
             src={bimLogo} 
             alt="Brand Image Marketing" 
-            className="h-32 md:h-40 w-auto"
+            className="h-44 md:h-52 w-auto"
           />
         </div>
 

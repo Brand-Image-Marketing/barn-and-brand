@@ -31,9 +31,7 @@ const Portfolio = () => {
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-lg text-foreground/90 max-w-2xl mx-auto font-body">
-            <strong><em>Real results. Real impact.</em></strong>
-            <br />
-            Here's a glimpse of the work that connects brands with their people.
+            Designed with intention and shaped by each brand's identity, this collection reflects the range, versatility, and refinement behind Brand Image Marketing. From bold to minimal, modern to western, every piece is crafted to be unmistakably theirs.
           </p>
         </div>
 

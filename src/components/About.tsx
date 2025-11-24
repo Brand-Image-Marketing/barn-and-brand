@@ -46,31 +46,82 @@ const About = () => {
                 I'm Mari Morris — the storyteller behind Brand Image Marketing.
               </h3>
               <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                <em>Every brand has a story.</em> Mine began with a love for livestock, a passion for competition, and <em>a belief that the marks we leave — in the ring, on people, on communities — should stand the test of time.</em>
+                Mine began with a love for livestock, a passion for competition, and a belief that the marks we leave — in the ring, on people, on communities — should stand the test of time.
               </p>
               <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                I grew up in Bend, Oregon, where livestock judging became both my passion and my path. That journey took me from Oregon to Oklahoma, where I judged competitively at the collegiate level. After graduation, I spent two years working in the ag industry before joining Show-Rite Feeds, where I discovered something unexpected: <em>my talent for marketing.</em> What began with simply managing their social media quickly grew into building audiences in the tens of thousands — and with it, a passion for strategy, creativity, and connection.
+                I grew up in Bend, Oregon, where livestock judging became both my passion and my path. That journey carried me to Oklahoma, where I competed at the collegiate level before earning my degree and stepping into the world of animal agriculture. After two years in the industry, I joined Show-Rite Feeds and discovered something unexpected: I had a gift for marketing.
               </p>
               <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                With a growing family at home and a vision for something greater, I took the leap into entrepreneurship in 2022 and founded <strong>Brand Image Marketing</strong>. Leaving corporate life allowed me to pour my energy into the part of the work I loved most: helping businesses connect with people in ways that mattered. Thanks to trusted relationships and word of mouth, my first clients came quickly, and BIM has grown ever since.
+                <em>Real, grounded, people-first marketing.</em>
               </p>
               <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                When I'm not helping clients build their brands, I'm at home on the ranch in Augusta, Montana, with my husband, Tucker, and our two kids, Maya and Rio. My children are fifth generation on this land — together we're raising cattle, raising a family, <em>and carrying forward a life built on legacy.</em>
+                What began with managing social media turned into building audiences in the tens of thousands, shaping strategy, and telling stories that resonated.
+              </p>
+              <p className="text-lg text-foreground/90 font-body leading-relaxed">
+                But even as my career grew, another world was calling me home.
+              </p>
+              <p className="text-lg text-foreground/90 font-body leading-relaxed">
+                My heart was in Augusta, Montana; a town tucked against the Rocky Mountain Front, where the wind doesn't let up and the mountains teach you to stay humble. Out here, life asks you to slow down and step up in the same breath.
+              </p>
+              <p className="text-lg text-foreground/90 font-body leading-relaxed">
+                Today, my husband, Tucker, and his family run around 700 head of Maine-Anjou and Angus cattle across land that's been in the Morris family for five generations. We aren't hobby ranchers; this is our livelihood. It's the kind of place that grounds you, shapes you, and reminds you that nothing in life is given, only earned.
+              </p>
+              <p className="text-lg text-foreground/90 font-body leading-relaxed">
+                Together, we're raising cattle.
+              </p>
+              <p className="text-lg text-foreground/90 font-body leading-relaxed">
+                We're raising our family.
+              </p>
+              <p className="text-lg text-foreground/90 font-body leading-relaxed">
+                And we're carrying forward a way of life built on legacy.
+              </p>
+              <p className="text-lg text-foreground/90 font-body leading-relaxed">
+                In 2022, I made the hard decision to leave the corporate world so I could build something that felt as honest and grounded as the life we live here: intentional, rooted, and made by hand.
+              </p>
+              <p className="text-lg text-foreground/90 font-body leading-relaxed">
+                Brand Image Marketing didn't start with a business plan.
+              </p>
+              <p className="text-lg text-foreground/90 font-body leading-relaxed">
+                It started at my kitchen table after the kids fell asleep and the ranch work was done; in the quiet hours where ideas grow if you're willing to meet them.
+              </p>
+              <p className="text-lg text-foreground/90 font-body leading-relaxed">
+                No formal training.
+              </p>
+              <p className="text-lg text-foreground/90 font-body leading-relaxed">
+                No shortcuts.
+              </p>
+              <p className="text-lg text-foreground/90 font-body leading-relaxed">
+                Just self-taught skills, word of mouth, earned trust, and the belief that good work doesn't need to be shouted to be felt.
+              </p>
+              <p className="text-lg text-foreground/90 font-body leading-relaxed">
+                Today, I help businesses build brands with the same values this ranch teaches every day:
               </p>
               <div className="space-y-2 pt-4">
                 <p className="text-lg text-foreground/90 font-body leading-relaxed font-semibold">
-                  That same belief drives my work: branding is more than marketing.
+                  Say less. Mean more.
                 </p>
-                <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                  It is <em>meaning.</em>
+                <p className="text-lg text-foreground/90 font-body leading-relaxed font-semibold">
+                  Work hard. Stay steady.
                 </p>
-                <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                  It is <em>movement.</em>
-                </p>
-                <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                  It is <em>a mark that lasts.</em>
+                <p className="text-lg text-foreground/90 font-body leading-relaxed font-semibold">
+                  Build something that lasts.
                 </p>
               </div>
+              <p className="text-lg text-foreground/90 font-body leading-relaxed pt-4">
+                Because branding isn't just marketing.
+              </p>
+              <p className="text-lg text-foreground/90 font-body leading-relaxed">
+                It's story.
+              </p>
+              <p className="text-lg text-foreground/90 font-body leading-relaxed">
+                It's identity.
+              </p>
+              <p className="text-lg text-foreground/90 font-body leading-relaxed">
+                It's the mark you leave - on people, on communities, on the world that's watching.
+              </p>
+              <p className="text-lg text-foreground/90 font-body leading-relaxed pt-4 font-semibold">
+                And I'm here to help you make yours unforgettable.
+              </p>
             </div>
           </div>
         </div>

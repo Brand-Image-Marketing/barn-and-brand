@@ -96,7 +96,10 @@ const Results = () => {
               Performance Metrics
             </p>
             <p className="text-lg text-cream/90 font-body max-w-2xl mx-auto">
-              These numbers tell a bigger story: with no paid ads, this account grew through consistency, connection, and strategy that sticks. That's what happens when strategy meets storytelling.
+              These numbers tell a bigger story: In a highly niche market, <strong>with no paid ads</strong>, this account grew organically on social media through two years of consistent strategy, meaningful connection, and storytelling that resonates.
+            </p>
+            <p className="text-lg text-cream/90 font-body max-w-2xl mx-auto mt-4 italic">
+              When story leads the way, numbers like these follow.
             </p>
           </div>
 

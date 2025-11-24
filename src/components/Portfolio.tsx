@@ -4,8 +4,7 @@ import impact1 from "@/assets/impact-1.png";
 import impact2 from "@/assets/impact-2.png";
 import impact3 from "@/assets/impact-3.png";
 import impact4 from "@/assets/impact-4.png";
-import leatherTooling from "@/assets/leather-tooling-new.jpg";
-import leatherMobile from "@/assets/about-texture-mobile.jpg";
+import brandBackground from "@/assets/brand-background.jpg";
 
 const Portfolio = () => {
   const impactExamples = [
@@ -18,20 +17,11 @@ const Portfolio = () => {
   return (
     <section 
       id="designs" 
-      className="py-24 relative overflow-hidden bg-top bg-scroll md:bg-fixed"
+      className="py-24 relative overflow-hidden bg-cover bg-center"
       style={{
-        backgroundImage: `url(${leatherMobile})`,
-        backgroundSize: '100% auto',
+        backgroundImage: `url(${brandBackground})`,
       }}
     >
-      <style>{`
-        @media (min-width: 768px) {
-          #designs {
-            background-image: url(${leatherTooling}) !important;
-            background-size: cover !important;
-          }
-        }
-      `}</style>
       <div className="absolute inset-0 bg-black/10"></div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">

@@ -16,11 +16,11 @@ const Portfolio = () => {
     >
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-display font-semibold text-foreground mb-6">
+          <h2 className="text-4xl md:text-5xl font-display font-semibold text-cream mb-6">
             The Designs
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
-          <p className="text-lg text-foreground/90 max-w-2xl mx-auto font-body">
+          <p className="text-lg text-cream/90 max-w-2xl mx-auto font-body">
             Designed with intention and shaped by each brand's identity, this collection reflects the range, versatility, and refinement behind Brand Image Marketing. From bold to minimal, modern to western, every piece is crafted to be unmistakably theirs.
           </p>
         </div>

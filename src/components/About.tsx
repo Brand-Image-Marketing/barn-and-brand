@@ -58,40 +58,22 @@ const About = () => {
                 What began with managing social media turned into building audiences in the tens of thousands, shaping strategy, and telling stories that resonated.
               </p>
               <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                But even as my career grew, another world was calling me home.
-              </p>
-              <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                My heart was in Augusta, Montana; a town tucked against the Rocky Mountain Front, where the wind doesn't let up and the mountains teach you to stay humble. Out here, life asks you to slow down and step up in the same breath.
+                But even as my career grew, another world was calling me home. My heart was in Augusta, Montana; a town tucked against the Rocky Mountain Front, where the wind doesn't let up and the mountains teach you to stay humble. Out here, life asks you to slow down and step up in the same breath.
               </p>
               <p className="text-lg text-foreground/90 font-body leading-relaxed">
                 Today, my husband, Tucker, and his family run around 700 head of Maine-Anjou and Angus cattle across land that's been in the Morris family for five generations. We aren't hobby ranchers; this is our livelihood. It's the kind of place that grounds you, shapes you, and reminds you that nothing in life is given, only earned.
               </p>
               <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                Together, we're raising cattle.
-              </p>
-              <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                We're raising our family.
-              </p>
-              <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                And we're carrying forward a way of life built on legacy.
+                Together, we're raising cattle. We're raising our family. And we're carrying forward a way of life built on legacy.
               </p>
               <p className="text-lg text-foreground/90 font-body leading-relaxed">
                 In 2022, I made the hard decision to leave the corporate world so I could build something that felt as honest and grounded as the life we live here: intentional, rooted, and made by hand.
               </p>
               <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                Brand Image Marketing didn't start with a business plan.
+                Brand Image Marketing didn't start with a business plan. It started at my kitchen table after the kids fell asleep and the ranch work was done; in the quiet hours where ideas grow if you're willing to meet them.
               </p>
               <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                It started at my kitchen table after the kids fell asleep and the ranch work was done; in the quiet hours where ideas grow if you're willing to meet them.
-              </p>
-              <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                No formal training.
-              </p>
-              <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                No shortcuts.
-              </p>
-              <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                Just self-taught skills, word of mouth, earned trust, and the belief that good work doesn't need to be shouted to be felt.
+                No formal training. No shortcuts. Just self-taught skills, word of mouth, earned trust, and the belief that good work doesn't need to be shouted to be felt.
               </p>
               <p className="text-lg text-foreground/90 font-body leading-relaxed">
                 Today, I help businesses build brands with the same values this ranch teaches every day:
@@ -108,16 +90,7 @@ const About = () => {
                 </p>
               </div>
               <p className="text-lg text-foreground/90 font-body leading-relaxed pt-4">
-                Because branding isn't just marketing.
-              </p>
-              <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                It's story.
-              </p>
-              <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                It's identity.
-              </p>
-              <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                It's the mark you leave - on people, on communities, on the world that's watching.
+                Because branding isn't just marketing. It's story. It's identity. It's the mark you leave - on people, on communities, on the world that's watching.
               </p>
               <p className="text-lg text-foreground/90 font-body leading-relaxed pt-4 font-semibold">
                 And I'm here to help you make yours unforgettable.

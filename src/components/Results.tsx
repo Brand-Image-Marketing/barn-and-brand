@@ -93,7 +93,7 @@ const Results = () => {
             </h2>
             <div className="w-20 h-1 bg-tan mx-auto"></div>
             <p className="text-xl text-cream/95 font-body max-w-3xl mx-auto italic">
-              Proof in the Numbers. Power in the Story.
+              Performance Metrics
             </p>
             <p className="text-lg text-cream/90 font-body max-w-2xl mx-auto">
               These numbers tell a bigger story: with no paid ads, this account grew through consistency, connection, and strategy that sticks. That's what happens when strategy meets storytelling.

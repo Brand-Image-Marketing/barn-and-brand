@@ -72,7 +72,7 @@ const Results = () => {
           </div>
           <div className="space-y-2">
             <div className="flex items-baseline justify-center gap-2">
-              <span className="text-3xl font-display font-bold text-accent">
+              <span className="text-4xl font-display font-bold text-accent">
                 +{stat.growth}
               </span>
             </div>

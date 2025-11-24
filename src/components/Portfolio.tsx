@@ -17,7 +17,7 @@ const Portfolio = () => {
 
   return (
     <section 
-      id="portfolio" 
+      id="designs" 
       className="py-24 relative overflow-hidden bg-top bg-scroll md:bg-fixed"
       style={{
         backgroundImage: `url(${leatherMobile})`,
@@ -26,7 +26,7 @@ const Portfolio = () => {
     >
       <style>{`
         @media (min-width: 768px) {
-          #portfolio {
+          #designs {
             background-image: url(${leatherTooling}) !important;
             background-size: cover !important;
           }
@@ -36,7 +36,7 @@ const Portfolio = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-display font-semibold text-foreground mb-6">
-            The Work
+            The Designs
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-lg text-foreground/90 max-w-2xl mx-auto font-body">

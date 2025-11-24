@@ -154,7 +154,7 @@ const Results = () => {
               <h3 className="text-3xl font-display font-semibold text-cream mb-4">
                 High-Impact Content
               </h3>
-              <p className="text-cream/90 font-body">
+              <p className="text-cream/90 font-body max-w-3xl mx-auto">
                 A curated collection of the posts that traveled farthest. Content shaped by story, rooted in connection, and amplified organically by the people it resonated with.
               </p>
             </div>

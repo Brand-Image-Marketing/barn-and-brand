@@ -46,14 +46,6 @@ const Portfolio = () => {
               />
             </CardContent>
           </Card>
-          <div className="text-center mt-6">
-            <h3 className="text-2xl font-display font-semibold text-foreground mb-2">
-              Graphic Design Portfolio
-            </h3>
-            <p className="text-foreground/80 font-body">
-              Brand identities, social graphics, and marketing materials that make an impression.
-            </p>
-          </div>
         </div>
 
         {/* High Impact Content Grid */}

@@ -1,18 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import graphicSamples from "@/assets/graphic-samples.png";
-import impact1 from "@/assets/impact-1.png";
-import impact2 from "@/assets/impact-2.png";
-import impact3 from "@/assets/impact-3.png";
-import impact4 from "@/assets/impact-4.png";
 import brandBackground from "@/assets/brand-background.jpg";
 
 const Portfolio = () => {
-  const impactExamples = [
-    { image: impact1, platform: "Instagram", alt: "Stock show tan Instagram post with engagement metrics" },
-    { image: impact2, platform: "Facebook", alt: "Livestock teaching Facebook post with engagement metrics" },
-    { image: impact3, platform: "Facebook", alt: "Stock show code Facebook post with engagement metrics" },
-    { image: impact4, platform: "TikTok", alt: "Horse grooming TikTok with engagement metrics" },
-  ];
 
   return (
     <section 
@@ -36,7 +26,7 @@ const Portfolio = () => {
         </div>
 
         {/* Graphic Samples Showcase */}
-        <div className="max-w-6xl mx-auto mb-16">
+        <div className="max-w-6xl mx-auto">
           <Card className="bg-card/95 border-border/50 overflow-hidden hover-lift transition-all duration-300">
             <CardContent className="p-0">
               <img 
@@ -46,34 +36,6 @@ const Portfolio = () => {
               />
             </CardContent>
           </Card>
-        </div>
-
-        {/* High Impact Content Grid */}
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <h3 className="text-3xl font-display font-semibold text-foreground mb-4">
-              High-Impact Content
-            </h3>
-            <p className="text-foreground/80 font-body">
-              Content that stops the scroll and drives real engagement across platforms.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {impactExamples.map((example, index) => (
-              <Card 
-                key={index}
-                className="bg-card/95 border-border/50 overflow-hidden hover-lift transition-all duration-300"
-              >
-                <CardContent className="p-0">
-                  <img 
-                    src={example.image} 
-                    alt={example.alt}
-                    className="w-full h-auto"
-                  />
-                </CardContent>
-              </Card>
-            ))}
-          </div>
         </div>
       </div>
     </section>

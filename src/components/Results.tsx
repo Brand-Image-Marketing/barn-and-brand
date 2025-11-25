@@ -17,7 +17,10 @@ const Results = () => {
           setIsVisible(true);
         }
       },
-      { threshold: 0.2 }
+      { 
+        threshold: 0.1,
+        rootMargin: '0px 0px -10% 0px'
+      }
     );
 
     if (sectionRef.current) {
@@ -55,6 +58,9 @@ const Results = () => {
     const toNumber = parseInt(stat.to.replace(/,/g, ''));
     const animatedCount = useCountUp(toNumber, 2000, isVisible);
     
+    // Fallback to actual number if animation hasn't started properly
+    const displayCount = animatedCount === 0 && isVisible ? toNumber : animatedCount;
+    
     const formatNumber = (num: number) => {
       return num.toLocaleString();
     };
@@ -77,7 +83,7 @@ const Results = () => {
             <div className="flex items-center justify-center gap-2 text-sm text-foreground/70">
               <span className="line-through">{stat.from}</span>
               <TrendingUp className="w-4 h-4 text-accent" />
-              <span className="font-semibold text-foreground">{formatNumber(animatedCount)}</span>
+              <span className="font-semibold text-foreground">{formatNumber(displayCount)}</span>
             </div>
           </div>
         </CardContent>

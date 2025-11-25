@@ -4,7 +4,6 @@ import { useCountUp } from "@/hooks/useCountUp";
 import { useEffect, useRef, useState } from "react";
 import impact1 from "@/assets/impact-1.png";
 import impact2 from "@/assets/impact-2.png";
-import impact3 from "@/assets/impact-3.png";
 import impact4 from "@/assets/impact-4.png";
 
 const Results = () => {
@@ -48,7 +47,6 @@ const Results = () => {
   const impactExamples = [
     { image: impact1, platform: "Instagram", alt: "Stock show tan Instagram post with engagement metrics" },
     { image: impact2, platform: "Facebook", alt: "Livestock teaching Facebook post with engagement metrics" },
-    { image: impact3, platform: "Facebook", alt: "Stock show code Facebook post with engagement metrics" },
     { image: impact4, platform: "TikTok", alt: "Horse grooming TikTok with engagement metrics" },
   ];
 

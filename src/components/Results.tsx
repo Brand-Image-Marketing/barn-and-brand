@@ -101,9 +101,9 @@ const Results = () => {
               The Proof
             </h2>
             <div className="w-20 h-1 bg-tan mx-auto"></div>
-            <p className="text-xl text-cream/95 font-body max-w-3xl mx-auto italic">
+            <h3 className="text-3xl font-display font-semibold text-cream mb-4">
               Performance Metrics
-            </p>
+            </h3>
             <p className="text-lg text-cream/90 font-body max-w-2xl mx-auto">
               These numbers tell a bigger story: In a highly niche market, <strong>with no paid ads</strong>, this account grew organically on social media through two years of consistent strategy, meaningful connection, and storytelling that resonates.
             </p>

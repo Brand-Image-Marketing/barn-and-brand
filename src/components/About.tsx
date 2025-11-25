@@ -46,7 +46,7 @@ const About = () => {
                 I'm Mari Morris — the storyteller behind Brand Image Marketing.
               </h3>
               <p className="text-lg text-foreground/90 font-body leading-relaxed">
-                Mine began with a love for livestock, a passion for competition, and a belief that the marks we leave —
+                My story began with a love for livestock, a passion for competition, and a belief that the marks we leave —
                 in the ring, on people, on communities — should stand the test of time.
               </p>
               <p className="text-lg text-foreground/90 font-body leading-relaxed">

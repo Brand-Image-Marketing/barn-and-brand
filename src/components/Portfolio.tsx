@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import graphicSamples from "@/assets/graphic-samples.png";
+import graphicSamples from "@/assets/graphic-samples-new.png";
 import designsBackground from "@/assets/designs-background-new.jpg";
 
 const Portfolio = () => {

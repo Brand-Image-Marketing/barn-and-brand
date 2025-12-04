@@ -42,9 +42,6 @@ const About = () => {
             </div>
 
             <div className="space-y-6 text-center max-w-4xl mx-auto">
-              <h3 className="text-2xl font-display font-semibold text-foreground mb-6">
-                I'm Mari Morris — the storyteller behind Brand Image Marketing.
-              </h3>
               <p className="text-lg text-foreground/90 font-body leading-relaxed">
                 My story began with a love for livestock, a passion for competition, and a belief that the marks we leave —
                 in the ring, on people, on communities — should stand the test of time.

@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import graphicSamples from "@/assets/graphic-samples.png";
-import designsBackground from "@/assets/designs-background.jpg";
+import designsBackground from "@/assets/designs-background-new.jpg";
 
 const Portfolio = () => {
 

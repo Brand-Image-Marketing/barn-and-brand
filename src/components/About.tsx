@@ -25,8 +25,8 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           <div className="bg-cream/95 rounded-3xl p-8 md:p-12 border-4 border-tan/30 shadow-2xl">
             <div className="text-center mb-12">
-              <h2 className="text-4xl md:text-5xl font-display font-semibold text-foreground mb-6">
-                A Story Rooted in Legacy.
+            <h2 className="text-4xl md:text-5xl font-display font-semibold text-foreground mb-6">
+                I'm Mari Morris - The Storyteller.
               </h2>
               <div className="w-20 h-1 bg-tan mx-auto mb-6"></div>
             </div>
